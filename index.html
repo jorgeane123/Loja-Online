@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <header>
+        <h1>Loja Online</h1>
+        <nav>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#carrinho">Carrinho</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de Produtos</h2>
+            <div id="produtos" class="produto-lista"></div>
+        </section>
+        
+        <section id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <div id="resumo-carrinho"></div>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <section id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <div id="resumo-carrinho"></div>
+        
+        <h3>Endereço de Entrega</h3>
+        <input type="text" id="cep" placeholder="Digite seu CEP">
+        <button id="buscar-endereco">Buscar Endereço</button>
+        
+        <div id="endereco"></div>
+        
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </section>
+    
+</body>
+</html>
+

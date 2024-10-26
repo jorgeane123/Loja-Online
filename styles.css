@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #f8cbef;
+    color: #350202;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #110202;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.produto-lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.produto img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #cf27f1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f121f5;
+}
+#cep {
+    padding: 10px;
+    width: 200px;
+}
+
+#buscar-endereco {
+    margin-left: 10px;
+}
